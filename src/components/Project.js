@@ -1,4 +1,3 @@
-// src/Project.js
 import React from 'react';
 
 const Project = ({ title, description, githubLink, liveDemoLink }) => {
