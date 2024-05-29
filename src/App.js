@@ -5,8 +5,8 @@ function App() {
   const projects = [
     {
       id: 1,
-      title: "Project 1",
-      description: "Description of Project 1...",
+      title: "Matching Kitties",
+      description: "I created a memory style game as my first React project using Create React App. The game is called Matching Kitties and the goal is to match all the pairs of kitties in the least number of moves. The game keeps track of the number of moves and the time it takes to complete the game. I also added a reset button to start a new game. The game is responsive and works on desktop and mobile devices. I deployed the game to Netlify.",
       githubLink: "https://github.com/Mirkica/matching-kitties",
       liveDemoLink: "https://matching-kitties.netlify.app/"
     },
@@ -42,7 +42,7 @@ function App() {
                 <p className="text-gray-600">{project.description}</p>
               </div>
               <div className="flex justify-between items-center bg-gray-100 px-6 py-4">
-                <a href={project.githubLink} className="text-blue-500 hover:underline">GitHub</a>
+                <a href={project.githubLink} className="text-blue-500 hover:underline">GitHub Repo</a>
                 <a href={project.liveDemoLink} className="text-blue-500 hover:underline">Live Demo</a>
               </div>
             </div>
